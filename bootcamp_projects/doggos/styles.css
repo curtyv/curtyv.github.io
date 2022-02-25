@@ -1,0 +1,39 @@
+@keyframes spin {
+    to {
+      transform: rotateZ(360deg);
+    }
+}
+
+label {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.spinner {
+    display: none;
+    font-size: 4rem;
+    width: 64px;
+    height: 74px;
+    z-index: 10;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    animation: spin 1.5s ease-in-out infinite;
+}
+
+.brand {
+    font-size: 4rem;
+    padding: 0px 30px;
+    margin: 30px 0px;
+}
+
+.main {
+    display: flex;
+}
+
+.selector {
+    padding: 30px;
+}
+
+img#doggo {
+    max-width: 500px;
+}
